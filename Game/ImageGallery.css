@@ -1,0 +1,21 @@
+/* src/ImageGallery.css */
+
+  .Img{
+   border-radius: 50px;
+   max-width: 100%;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   transition: max-width 0.3s ease;
+   
+
+  }
+  .bg{
+    
+      background-image: linear-gradient(to right,blue,yellow);
+    }
+  
+ 
+   
+  
+  .Img:hover{
+    max-width: 105%;
+  }
